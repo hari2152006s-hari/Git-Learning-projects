@@ -26,3 +26,5 @@ def peek():
     if To_do_list:
         print("peek",hp.heappop(To_do_list))
         print(To_do_list)
+
+peek()

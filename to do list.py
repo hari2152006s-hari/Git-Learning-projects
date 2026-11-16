@@ -3,6 +3,9 @@ import heapq as hp
 To_do_list = []
 
 def add():
+    task = input("enter task:")
+    To_do_list.append(task)
+
     hp.heappush(To_do_list,"Sleep quickly before morning ")
     hp.heappush(To_do_list,"practice some python topics")
     hp.heappush(To_do_list,"learn something new")

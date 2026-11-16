@@ -24,7 +24,8 @@ remove()
 
 def peek():
     if To_do_list:
-        print("peek",hp.heappop(To_do_list))
-        print(To_do_list)
+        print("next task",To_do_list[0])
+    else:
+        print("No available task")
 
 peek()
